@@ -1,4 +1,4 @@
-export interface ISimpsons{
+export interface ISimpson {
 	name: string;
 	surname: string;
 	age: number;

@@ -1,8 +1,8 @@
-import {simpsons} from "./Simpsons.ts";
-import {CharacterComponent} from "./CharacterComponent.tsx";
+import {simpsons} from "../Simpsons.ts";
+import {CharacterComponent} from "../characterComponent/CharacterComponent.tsx";
 
 
-const FamilyComponent = () => {
+export const FamilyComponent = () => {
 
     return (
         <div>
@@ -11,4 +11,3 @@ const FamilyComponent = () => {
     );
 };
 
-export default FamilyComponent;

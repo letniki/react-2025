@@ -1,7 +1,7 @@
-import {ISimpsons} from "../models/ISimpsons.ts";
+import {ISimpson} from "../../models/ISimpson.ts";
 
 interface CharacterComponentProps {
-    simpson: ISimpsons;
+    simpson: ISimpson;
     children: React.ReactNode;
 }
 

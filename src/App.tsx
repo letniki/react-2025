@@ -1,12 +1,14 @@
 import './App.css'
+import {FamilyComponent} from "./components/familyComponent/FamilyComponent.tsx";
 
-import FamilyComponent from "./components/FamilyComponent.tsx";
 
 
 function App() {
 
   return (
+      <>
       <FamilyComponent/>
+      </>
   )
 }
 
