@@ -1,4 +1,4 @@
-import {simpsons} from "../Simpsons.ts";
+import {simpsons} from "../../data/Simpsons.ts";
 import {CharacterComponent} from "../characterComponent/CharacterComponent.tsx";
 
 
