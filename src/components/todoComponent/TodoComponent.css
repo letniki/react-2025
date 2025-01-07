@@ -1,0 +1,10 @@
+.block{
+    background: lightskyblue;
+    margin-bottom: 2vh;
+    font-size: 20px;
+    border: darkblue 2px solid;
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+}
