@@ -8,7 +8,7 @@ export const TodosComponent = () => {
     const [todos, setTodos] = useState<ITodo[]>([]);
     useEffect(() => {
        getTodos()
-           .then((response) => setTodos(response))
+           .then(response => setTodos(response))
     }, []);
     return (
         <div>
