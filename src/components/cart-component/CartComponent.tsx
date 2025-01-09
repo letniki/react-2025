@@ -1,4 +1,5 @@
 import {ICart} from "../../models/ICart.ts";
+import {ProductComponent} from "../products-component/ProductComponent.tsx";
 
 interface ICartProps {
     cart: ICart;
@@ -7,7 +8,8 @@ interface ICartProps {
 const CartComponent = ({cart}:ICartProps) => {
     return (
         <div>
-            {cart.id}-{cart.total}
+            Cart Id: {cart.id} - Total: {cart.total}
+            {cart.products.map(product => <ProductComponent key={product.id} product={product}/>)}
         </div>
     );
 };
