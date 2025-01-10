@@ -1,6 +1,6 @@
 import {ICart} from "../../models/ICart.ts";
-import {ProductComponent} from "../products-component/ProductComponent.tsx";
-
+import {ProductComponent} from "../product-component/ProductComponent.tsx";
+import './CartComponent.css'
 interface ICartProps {
     cart: ICart;
 }
@@ -8,8 +8,11 @@ interface ICartProps {
 const CartComponent = ({cart}:ICartProps) => {
     return (
         <div>
-            Cart Id: {cart.id} - Total: {cart.total}
+            <h3>Cart Id: {cart.id} - Total: {cart.total} $</h3>
+        <div className='carts'>
+
             {cart.products.map(product => <ProductComponent key={product.id} product={product}/>)}
+        </div>
         </div>
     );
 };

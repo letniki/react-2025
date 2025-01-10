@@ -1,0 +1,8 @@
+.carts{
+    display: flex;
+    width: 95vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: blueviolet solid 2px;
+    flex-direction: row;
+}
