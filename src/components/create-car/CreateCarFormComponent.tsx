@@ -4,7 +4,7 @@ import {createCar} from "../../services/api-service.ts";
 import {carValidator} from "../../validators/carValidator.ts";
 import {joiResolver} from "@hookform/resolvers/joi";
 
-export const CreateCarComponent = () => {
+export const CreateCarFormComponent = () => {
     const {register, handleSubmit, formState: {errors}} = useForm<ICar>({mode: 'all', resolver: joiResolver(carValidator)});
     const handler = (data:ICar)=> {
         createCar(data)
