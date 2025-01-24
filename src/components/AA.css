@@ -1,0 +1,19 @@
+.light{
+    width: 20vw;
+    height: 20vh;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.dark{
+    width: 20vw;
+    height: 20vh;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgoldenrodyellow;
+    margin-bottom: 10px;
+}
